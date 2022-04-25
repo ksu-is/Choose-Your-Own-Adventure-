@@ -12,6 +12,6 @@ if answer == "left":
         print("You walk for many miles, ran out of water and you lost the game")
     else:print('Not a valid option. You lose')
 elif answer == "right":
-    print()
+    answer = input()
 else:
     print('Not a valid option. You lose')
