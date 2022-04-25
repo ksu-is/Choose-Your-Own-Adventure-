@@ -22,13 +22,17 @@ elif answer == "right":
         answer = input("you cross the bridge and meet a stranger. Do you talk to them (yes/no)")
     
     if answer == "yes":
-        
+        print("You talk to the stranger and they give you gold. You win!")
     elif answer == "no"
-    
+        print("you ignore the stranger and they are offended and you lose")
     else: 
         print('Not a valid option. You lose')
+else:
+    print('Not a valid option. You lose')
     
     
    
 else:
     print('Not a valid option. You lose')
+    
+print("Thanks for playing our game")
