@@ -5,10 +5,10 @@ print("+-------------------------------------------+
        |way to his first day of class at Kennesaw  |
        |State University. But Georgia traffic is   |
        |backed up. So you will have to trek the    |
-       |rest of the way on foot.                   |
+       |rest of the way on foot. You start with 1oo hp|
        |            Good Luck!                     |
        +-------------------------------------------+")
-
+hp = 100
 While true:
 q1 =input("You are on a dirt road, it has come to an end and you can go left or right. Which way would you like to go?" ).lower()
 
@@ -19,6 +19,7 @@ if q1.lower() == "left":
         q12 = ("You see an alligator swimming directly at you. Do you fight or keep swimminng?")
             if q12.lower() == 'fight':
                 print('You manage to fend off the alligator, but not without taking some damage."
+                      hp -=10
                 Break
             elif q12.lower() == 'swim':
                 print('You try to swim faster but the alligator is too fast for you in the water. he takes a big bite out of your leg before you reach the other side.')
