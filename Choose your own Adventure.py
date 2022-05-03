@@ -57,8 +57,15 @@ elif q1.lower() == "right":
                        print('You get as big as possible and try to roar back at it. Turns out, the bear was just a mom concerned for her kids, so she walks away.')
                        break
                 elif q16.lower() = 'fight':
-                       print('big mistake. The bear swipes at you twice before you manage to run away.')
+                       print('big mistake. The bear swipes at you twice. Do you continue to fight or do you try to run away(Stay/run)')
                        break
+                       
+         elif q17.lower() == 'stay':
+              q18 = input('you manage to find a stick and impale the bear in the chest. The bear bleeds out and you are left in a dark forest alone with your thoguths. Do you walk further in the forest or turn back?')
+               if q18.lower() = 'turn back':
+                       print('you manage to get out of the forest and find the police')
+              
+           
        else:
             print(error)
 else:
