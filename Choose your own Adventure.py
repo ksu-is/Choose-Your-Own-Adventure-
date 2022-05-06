@@ -9,11 +9,11 @@ print(
        "+-----------------------------------------------+        ___ ____/:     :\____ ___
        |Welcome", name, "to this adventure             |       .'          \   /          '.
        |You are playing as Scrappy the Owl on his way  |      /             -.-             \
-       |to his first day of Dr. Thomas Application     |     /          +-| |---/ /+        '\  /
-       |Development class at Kennesaw State University.|    |           | | |--/ /-|          |/
+       |to his first day of Dr. Thomas Application     |     /          +-| |---/ /+        '\  
+       |Development class at Kennesaw State University.|    |           | | |--/ /-|          |
        |But Georgia traffic is backed up. So you will  |   (     /' .   | | | / /     .'\   '.)
-       |have to trek the rest of the way on foot.      |   /   _/   ".  +-| | \ \-+  ."  \_. '\
-       |       You 100 minutes to get to class.        |  |    |      ".+-| |--\ \|."     |'.  |
+       |have to trek the rest of the way on foot.      |   /   _/   ".  +-| | \ \--+ ."  \_. '\
+       |       You 100 minutes to get to class.        |  |    |      ".+-| |--\ \ |"     |'.  |
        |               Good Luck!                      |  |    |       ||-| |---\ \|      | :  |
        +-----------------------------------------------+   \   |       |_____._____|      | : /
                                                            ")
