@@ -1,13 +1,14 @@
 name = input ("Type Your name: ")
-print("+-------------------------------------------+
-       |Welcome", name, "to this adventure         |
-       |You are playing as Scrappy the Owl on his  |
-       |way to his first day of class at Kennesaw  |
-       |State University. But Georgia traffic is   |
-       |backed up. So you will have to trek the    |
-       |rest of the way on foot. You start with 1oo hp|
-       |            Good Luck!                     |
-       +-------------------------------------------+")
+print("+-----------------------------------------------+
+       |Welcome", name, "to this adventure             |
+       |You are playing as Scrappy the Owl on his way  |
+       |to his first day of Dr. Thomas Application     |
+       |Development class at Kennesaw State University.|
+       |But Georgia traffic is backed up. So you will  |
+       |have to trek the rest of the way on foot.      |
+       |       You 100 minutes to get to class.        |
+       |               Good Luck!                      |
+       +-----------------------------------------------+")
 hp = 100
 While true:
 q1 =input("You are on a dirt road, it has come to an end and you can go left or right. Which way would you like to go?" ).lower()
@@ -70,3 +71,30 @@ elif q1.lower() == "right":
             print(error)
 else:
     print(error)
+ 
+if hp < 20:
+      answer = input('You've finally made it on campus... And with a few minutes left to spare! However, You start to feel a dark presence in the air.
+                     All of a sudden, Radagon from Elden Ring appears. Choose either magic, fire, lightning, or holy:')
+                     if answer.lower() = 'magic':
+                            print('You are able to defeat him.')
+                            hp -=15
+                     elif answer.lower() = 'fire':
+                            print('good choice! He seems to be weak to fire so you beat him quicker.')
+                            hp -=10
+                     elif answer.lower() = 'lightning':
+                            print('You are able to defeat him.')
+                            hp -=15
+                     elif answer.lower() = 'holy':
+                            print('Oh no! It seems as though he is resistant to holy!')
+                            hp -=20
+def time_check():
+       if hp > 9:
+             game_over = print("You made it to class with time to spare! Thank you for playing!")
+             quit()
+       elif hp < 1:
+             game_over = print("You are out of time, " + name + ". You are late to your class.")
+             quit()
+       else:
+             game_over = print("You made it just in time! Next time, try to not cut it so close ;)")
+             quit()
+time_check()
