@@ -1,14 +1,22 @@
 name = input ("Type Your name: ")
-print("+-----------------------------------------------+
-       |Welcome", name, "to this adventure             |
-       |You are playing as Scrappy the Owl on his way  |
-       |to his first day of Dr. Thomas Application     |
-       |Development class at Kennesaw State University.|
-       |But Georgia traffic is backed up. So you will  |
-       |have to trek the rest of the way on foot.      |
-       |       You 100 minutes to get to class.        |
-       |               Good Luck!                      |
-       +-----------------------------------------------+")
+print(
+                                                                                 
+                                                                       '.-'._____.'-.'
+                                                                        /\_\_  _/_/\
+                                                                       / / @ \/ @ \ \
+                                                                       \ \___/\___/ /
+                                                                        \____\/____/
+       "+-----------------------------------------------+        ___ ____/:     :\____ ___
+       |Welcome", name, "to this adventure             |       .'          \   /          '.
+       |You are playing as Scrappy the Owl on his way  |      /             -.-             \
+       |to his first day of Dr. Thomas Application     |     /          +-| |---/ /+        '\  /
+       |Development class at Kennesaw State University.|    |           | | |--/ /-|          |/
+       |But Georgia traffic is backed up. So you will  |   (     /' .   | | | / /     .'\   '.)
+       |have to trek the rest of the way on foot.      |   /   _/   ".  +-| | \ \-+  ."  \_. '\
+       |       You 100 minutes to get to class.        |  |    |      ".+-| |--\ \|."     |'.  |
+       |               Good Luck!                      |  |    |       ||-| |---\ \|      | :  |
+       +-----------------------------------------------+   \   |       |_____._____|      | : /
+                                                           ")
 hp = 100
 While true:
 q1 =input("You are on a dirt road, it has come to an end and you can go left or right. Which way would you like to go?" ).lower()
