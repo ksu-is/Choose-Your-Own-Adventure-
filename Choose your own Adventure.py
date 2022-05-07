@@ -72,15 +72,25 @@ elif q1.lower() == "right":
        if hp > 80;
              q17 = input('As you are running through the forest you trip over the portal gun and it fires a portal which you fall into. you sudenly find yourself in the marvels new your city. Do you walk towards avengers tower or the sanctum sanctorum?(Avengers Tower/Sanctum Sanctorum)')          
              if q17.lower() = 'Avengers Tower'         
-                   print('You find Captain America onlooking a giant army of symbiotes about to attack the city. He looks at Scrappy and says that their is no time to waste and gives him a shield. Scrappy and Captain America fight of the symbiotes threatning the city.')   
+                   print('You find Captain America onlooking a giant army of symbiotes about to attack the city. He looks at Scrappy and says that their is no time to waste and gives him a shield. Scrappy and Captain America fight off the symbiotes threatning the city. Captain America uses technology inspired by the space stone to send scrappy back to his world.')   
                     break
              elif q17.lower() = 'Sanctum Sanctorum'
-                   print('You find Doctor Strange and Wong seeing the symbiotes ooze through the city. Wong sees that Scrappy is strong and magically inclined and gives him a sling ring. Scrappy, Doctor Strange, and Wong all open up a huge portal that sends the symbiote army into the sun.') 
+                   print('You find Doctor Strange and Wong seeing the symbiotes ooze through the city. Wong sees that Scrappy is strong and magically inclined and gives him a sling ring. Scrappy, Doctor Strange, and Wong all open up a huge portal that sends the symbiote army into the sun. Doctor Strange opens up a portal to send you back to you back to your wolrd.') 
                    break
-                
+        if hp > 40;
+                q18 = input(' Scrappy finds himself walking in a canyon and see a plumber and little pink warrior fighting off aliens from a spaceship overlooking the canyon. They introduce themselve as Kirby and Mario and desire Scrappys help but they can only go with one of the warriors. Does Scrappy choose Mario or Kirby?(Mario/Kirby)')
+                if q18.lower() = 'Mario'
+                    print(' The aliens have stolen the Big Owl Bus. Mario and Scrappy get on Go-Karts in a hot pursuit. The aliens throw a blue shell and it hits Mario busting two of his tires. Mario throws a fire flower and tells Scrappy to eat it imediately. Scrappy turns into Fire Scrappy and continues to chase the Owl Bus. Scrappy throws a fireball that burns the aliens on top of the bus. Scrappy retrives the Big Owl Bus.')
+                      break
+                elif q18.lower() = 'Kirby'
+                    print (' Kirby takes Scrappy on his star straight to the spaceship to potentially destroy it. Kirby fights off as many aliens as possible but is overwhelmed. Kirby throws a sword towards Scrappy and he catches it. Scrappy enters a room to find the greatest swordsman know as Meta Knight. They fight for awhile and Scrappy best Meta Knight. Scrappy soon finds the control room and finds the self destruct button. Scrappy and Kirby escape the spaceship with only seconds to spare.')
+                     break
               if hp > 60; 
-                q18 = input('you are left in a dark forest alone with your thoguths. Do you walk further in the forest or turn back?')
-                  if q18.lower() = 'turn back':
+                q19 = input('you are left in a dark forest alone with your thoguths. Do you walk further in the forest or turn back?')
+                if q19.lower() = 'walk further'
+                  print(' Scrappy finds a women tending to her garden in the woods. She gestures you over and gives you apples since she can tell that he is tired. She has a cabin nearby and gives you a phone to call for help to leave the forest')
+                    break
+                elif q19.lower() = 'turn back':
                     print('you manage to get out of the forest and find the police')
                        break
          
