@@ -60,20 +60,31 @@ elif q1.lower() == "right":
                 else:
                     print(error)
                     break
+               
        elif q14.lower() == 'around':
-           q16 = input('Oh my god! It's a grizzly bear! Do you try to intimidate it or do you want to fight?')
-                if q16.lower() = 'intimidate':
-                       print('You get as big as possible and try to roar back at it. Turns out, the bear was just a mom concerned for her kids, so she walks away.')
+           q16 = input('Oh my god! Its a grizzly bear! Do you try to intimidate it or do you want to fight?')
+                if q16.lower() = 'fight':
+                       print('you manage to find a stick and impale the bear in the chest. The bear bleeds out.')
                        break
-                elif q16.lower() = 'fight':
-                       print('big mistake. The bear swipes at you twice. Do you continue to fight or do you try to run away(Stay/run)')
+                elif q16.lower() = 'intimidate':
+                       print('big mistake. The bear swipes at you twice. Do you continue to fight or do you try to run away(stay/run)')
                        break
+       if hp > 80;
+             q17 = input('As you are running through the forest you trip over the portal gun and it fires a portal which you fall into. you sudenly find yourself in the marvels new your city. Do you walk towards avengers tower or the sanctum sanctorum?(Avengers Tower/Sanctum Sanctorum)')          
+             if q17.lower() = 'Avengers Tower'         
+                   print('You find Captain America onlooking a giant army of symbiotes about to attack the city. He looks at Scrappy and says that their is no time to waste and gives him a shield. Scrappy and Captain America fight of the symbiotes threatning the city.')   
+                    break
+             elif q17.lower() = 'Sanctum Sanctorum'
+                   print('You find Doctor Strange and Wong seeing the symbiotes ooze through the city. Wong sees that Scrappy is strong and magically inclined and gives him a sling ring. Scrappy, Doctor Strange, and Wong all open up a huge portal that sends the symbiote army into the sun.') 
+                   break
+                
+              if hp > 60; 
+                q18 = input('you are left in a dark forest alone with your thoguths. Do you walk further in the forest or turn back?')
+                  if q18.lower() = 'turn back':
+                    print('you manage to get out of the forest and find the police')
+                       break
+         
                        
-         elif q17.lower() == 'stay':
-              q18 = input('you manage to find a stick and impale the bear in the chest. The bear bleeds out and you are left in a dark forest alone with your thoguths. Do you walk further in the forest or turn back?')
-               if q18.lower() = 'turn back':
-                       print('you manage to get out of the forest and find the police')
-                  
               
            
        else:
@@ -82,7 +93,7 @@ else:
     print(error)
  
 if hp < 20:
-      answer = input('You've finally made it on campus... And with a few minutes left to spare! However, You start to feel a dark presence in the air.
+      answer = input('Youve finally made it on campus... And with a few minutes left to spare! However, You start to feel a dark presence in the air.
                      All of a sudden, Radagon from Elden Ring appears. Choose either magic, fire, lightning, or holy:')
                      if answer.lower() = 'magic':
                             print('You are able to defeat him.')
