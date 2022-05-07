@@ -50,7 +50,7 @@ if q1.lower() == "left":
 elif q1.lower() == "right":
     q14 = input('You come across a large mountain. Do you go over or around?)
         if q14.lower() == 'over':
-            q15 = input('As you climb, you encounter apon a bunch of goats that inhabit this mountain. Do you want to pet the goat?')
+            q15 = input('As you climb, you encounter upon a bunch of goats that inhabit this mountain. Do you want to pet the goat?')
                 if q15.lower() == 'yes':
                     print('You have made a new friend! You are very careful when aproaching and the goat decides not to buck you off the mountain. It has such soft fur!')
                     break
@@ -73,6 +73,7 @@ elif q1.lower() == "right":
               q18 = input('you manage to find a stick and impale the bear in the chest. The bear bleeds out and you are left in a dark forest alone with your thoguths. Do you walk further in the forest or turn back?')
                if q18.lower() = 'turn back':
                        print('you manage to get out of the forest and find the police')
+                  
               
            
        else:
