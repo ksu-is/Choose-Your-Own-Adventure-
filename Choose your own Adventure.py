@@ -116,16 +116,29 @@ else:
                             time_check()
         
         if time > 20 and time < 60;
-            q18 = input(' Scrappy finds himself walking in a canyon and see a plumber and little pink warrior fighting off aliens from a spaceship overlooking the canyon. They introduce themselve as Kirby and Mario and desire Scrappys help but they can only go with one of the warriors. Does Scrappy choose Mario or Kirby?(Mario/Kirby)')
-            if q18.lower().startswith('mar'):
-                print(' The aliens have stolen the Big Owl Bus. Mario and Scrappy get on Go-Karts in a hot pursuit. The aliens throw a blue shell and it hits Mario busting two of his tires. Mario throws a fire flower and tells Scrappy to eat it imediately. Scrappy turns into Fire Scrappy and continues to chase the Owl Bus. Scrappy throws a fireball that burns the aliens on top of the bus. Scrappy retrives the Big Owl Bus.')
+            q41 = input('Scrappy finds himself walking in a canyon and see a plumber and little pink warrior fighting off aliens from a spaceship overlooking the canyon. They introduce themselve as Kirby and Mario and desire Scrappys help but they can only go with one of the warriors. Does Scrappy choose Mario or Kirby?(Mario/Kirby)')
+            if q41.lower().startswith('mar'):
+                q42 = input('The aliens have stolen the Big Owl Bus. Mario and Scrappy get on Go-Karts in a hot pursuit. Which Kart do you choose?')
+                q43 = input("You hit an item box. What item do you receive?(flower, shell, blooper)")
+                  if q43 == 'flower':
+                     time -=25
+                     print('The aliens throw a blue shell and it hits Mario busting two of his tires. Mario throws a fire flower and tells Scrappy to eat it imediately. Scrappy turns into Fire Scrappy and continues to chase the Owl Bus. Scrappy throws a fireball that burns the aliens on top of the bus. Scrappy retrives the Big Owl Bus.')
+                  elif q43 == 'shell':
+                     time -=30
+                     print('Just your luck! its a blue shell! The aliens throw back a banana and it hits Mario spiraling his car out of control. You come to the rescue and throw the blue shell at the aliens, exploding them. Scrappy retrives the Big Owl Bus.')
+                  elif q43 == 'blooper':
+                     time -=35
+                     print('The aliens throw a blue shell and it hits Mario busting two of his tires. Mario activates the blooper, blinding the aliens. Nows your chance! You take back the Big Owl Bus and drive to campus.')
             else:
-                print (' Kirby takes Scrappy on his star straight to the spaceship to potentially destroy it. Kirby fights off as many aliens as possible but is overwhelmed. Kirby throws a sword towards Scrappy and he catches it. Scrappy enters a room to find the greatest swordsman know as Meta Knight. They fight for awhile and Scrappy best Meta Knight. Scrappy soon finds the control room and finds the self destruct button. Scrappy and Kirby escape the spaceship with only seconds to spare.')
+                     time -=30
+                     print ('Kirby takes Scrappy on his star straight to the spaceship to potentially destroy it. Kirby fights off as many aliens as possible but is overwhelmed. Kirby throws a sword towards Scrappy and he catches it. Scrappy enters a room to find the greatest swordsman know as Meta Knight. They fight for awhile and Scrappy best Meta Knight. Scrappy soon finds the control room and finds the self destruct button. Scrappy and Kirby escape the spaceship with only seconds to spare.')
         if time > 60 and time < 80; 
-            q19 = input('you are left in a dark forest alone with your thoguths. Do you walk further in the forest or turn back?')
-            if q19.lower() = 'walk further'
-                 print(' Scrappy finds a women tending to her garden in the woods. She gestures you over and gives you apples since she can tell that he is tired. She has a cabin nearby and gives you a phone to call for help to leave the forest')
-            elif q19.lower() = 'turn back':
+            q69 = input('you are left in a dark forest alone with your thoguths. Do you walk further in the forest or turn back?')
+            if q69.lower() = 'walk further'
+                 time -=30
+                 print('Scrappy finds a women tending to her garden in the woods. She gestures you over and gives you apples since she can tell that he is tired. She has a cabin nearby and gives you a phone to call for help to leave the forest')
+            elif q69.lower() = 'turn back':
+                 time -=40
                  print('you manage to get out of the forest and find the police')
         if time > 80;
            q81 = input('As you are running through the forest you trip over the portal gun and it fires a portal which you fall into. you sudenly find yourself in the marvels new your city. Do you walk towards avengers tower or the sanctum sanctorum?(Avengers Tower/Sanctum Sanctorum)')          
