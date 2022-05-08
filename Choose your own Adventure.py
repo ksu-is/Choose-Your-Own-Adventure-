@@ -100,19 +100,19 @@ else:
                      All of a sudden, Radagon from Elden Ring appears. Choose either magic, fire, lightning, or holy:')
                      if answer.lower() == 'magic':
                             print('You are able to defeat him.')
-                            hp -=15
+                            time -=15
                             time_check()
                      elif answer.lower() == 'fire':
                             print('good choice! He seems to be weak to fire so you beat him quicker.')
-                            hp -=10
+                            time -=10
                             time_check()
                      elif answer.lower() == 'lightning':
                             print('You are able to defeat him.')
-                            hp -=15
+                            time -=15
                             time_check()
                      elif answer.lower() == 'holy':
                             print('Oh no! It seems as though he is resistant to holy!')
-                            hp -=20 
+                            time -=20 
                             time_check()
         
         if time > 20 and time < 60;
