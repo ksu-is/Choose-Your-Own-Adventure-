@@ -98,24 +98,24 @@ else:
        if time < 20:
       answer = input('Youve finally made it on campus... And with a few minutes left to spare! However, You start to feel a dark presence in the air.
                      All of a sudden, Radagon from Elden Ring appears. Choose either magic, fire, lightning, or holy:')
-                     if answer.lower() = 'magic':
+                     if answer.lower() == 'magic':
                             print('You are able to defeat him.')
                             hp -=15
                             time_check()
-                     elif answer.lower() = 'fire':
+                     elif answer.lower() == 'fire':
                             print('good choice! He seems to be weak to fire so you beat him quicker.')
                             hp -=10
                             time_check()
-                     elif answer.lower() = 'lightning':
+                     elif answer.lower() == 'lightning':
                             print('You are able to defeat him.')
                             hp -=15
                             time_check()
-                     elif answer.lower() = 'holy':
+                     elif answer.lower() == 'holy':
                             print('Oh no! It seems as though he is resistant to holy!')
                             hp -=20 
                             time_check()
         
-        if time > 40 and time < 60;
+        if time > 20 and time < 60;
             q18 = input(' Scrappy finds himself walking in a canyon and see a plumber and little pink warrior fighting off aliens from a spaceship overlooking the canyon. They introduce themselve as Kirby and Mario and desire Scrappys help but they can only go with one of the warriors. Does Scrappy choose Mario or Kirby?(Mario/Kirby)')
             if q18.lower().startswith('mar'):
                 print(' The aliens have stolen the Big Owl Bus. Mario and Scrappy get on Go-Karts in a hot pursuit. The aliens throw a blue shell and it hits Mario busting two of his tires. Mario throws a fire flower and tells Scrappy to eat it imediately. Scrappy turns into Fire Scrappy and continues to chase the Owl Bus. Scrappy throws a fireball that burns the aliens on top of the bus. Scrappy retrives the Big Owl Bus.')
@@ -136,8 +136,15 @@ else:
                     if q83 == '7'
                       time-=40
                       print('Ahh a classic! good choice. Scrappy and Iron Man fight off the symbiotes threatning the city. Iron Man uses technology inspired by the space stone to send scrappy back to his world.')
+                    elif q83 == '15':
+                      time -=45
+                      print('That armor is useless against them! However, Scrappy and Iron Man fight off the symbiotes threatning the city. Iron Man uses technology inspired by the space stone to send scrappy back to his world.')
+                    elif q83 == '39':
+                      time-=39
+                      print('This armor has incredible cosmic strength! Scrappy and Iron Man fight off the symbiotes threatning the city EASILY. Iron Man uses technology inspired by the space stone to send scrappy back to his world.')
                else:
                       time-=41
                       print('He looks at Scrappy and says that their is no time to waste and gives him a shield. Scrappy and Captain America fight off the symbiotes threatning the city. Captain America uses technology inspired by the space stone to send scrappy back to his world.')  
           else:
-               print('You find Doctor Strange and Wong seeing the symbiotes ooze through the city. Wong sees that Scrappy is strong and magically inclined and gives him a sling ring. Scrappy, Doctor Strange, and Wong all open up a huge portal that sends the symbiote army into the sun. Doctor Strange opens up a portal to send you back to you back to your wolrd.') 
+                     time-=40
+                     print('You find Doctor Strange and Wong seeing the symbiotes ooze through the city. Wong sees that Scrappy is strong and magically inclined and gives him a sling ring. Scrappy, Doctor Strange, and Wong all open up a huge portal that sends the symbiote army into the sun. Doctor Strange opens up a portal to send you back to you back to your world.') 
