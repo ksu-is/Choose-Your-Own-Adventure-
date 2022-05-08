@@ -1,12 +1,12 @@
 name = input ("Type Your name: ")
-print(
+print("
                                                                                  
                                                                        '.-'._____.'-.'
                                                                         /\_\_  _/_/\
                                                                        / / @ \/ @ \ \
                                                                        \ \___/\___/ /
                                                                         \____\/____/
-       "+-----------------------------------------------+        ___ ____/:     :\____ ___
+       +-----------------------------------------------+         ___ ____/:     :\____ ___
        |Welcome", name, "to this adventure             |       .'          \   /          '.
        |You are playing as Scrappy the Owl on his way  |      /             -.-             \
        |to his first day of Dr. Thomas Application     |     /          +-| |---/ /+        '\  
