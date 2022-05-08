@@ -1,6 +1,6 @@
 name = input ("Type Your name: ")
-print("
-                                                                                 
+print(
+"""                                                                                 
                                                                        '.-'._____.'-.'
                                                                         /\_\_  _/_/\
                                                                        / / @ \/ @ \ \
@@ -16,7 +16,7 @@ print("
        |       You 100 minutes to get to class.        |  |    |      ".+-| |--\ \ |"     |'.  |
        |               Good Luck!                      |  |    |       ||-| |---\ \|      | :  |
        +-----------------------------------------------+   \   |       |_____._____|      | : /
-                                                           ")
+                                                           """)
 time = 100
 While true:
 q1 =input("You are on a dirt road, it has come to an end and you can go left or right. Which way would you like to go?:(left/right)")
