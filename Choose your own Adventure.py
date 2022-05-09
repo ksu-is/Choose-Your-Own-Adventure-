@@ -112,7 +112,7 @@ if time < 20:
         time -=20 
         time_check()
 
-if time > 20 and time < 60;
+if time > 20 and time < 60:
     q41 = input('Scrappy finds himself walking in a canyon and see a plumber and little pink warrior fighting off aliens from a spaceship overlooking the canyon. They introduce themselve as Kirby and Mario and desire Scrappys help but they can only go with one of the warriors. Does Scrappy choose Mario or Kirby?(Mario/Kirby)')
     if q41.lower().startswith('mar'):
         q42 = input('The aliens have stolen the Big Owl Bus. Mario and Scrappy get on Go-Karts in a hot pursuit. Which Kart do you choose?')
@@ -130,11 +130,11 @@ if time > 20 and time < 60;
         time -=30
         print ('Kirby takes Scrappy on his star straight to the spaceship to potentially destroy it. Kirby fights off as many aliens as possible but is overwhelmed. Kirby throws a sword towards Scrappy and he catches it. Scrappy enters a room to find the greatest swordsman know as Meta Knight. They fight for awhile and Scrappy best Meta Knight. Scrappy soon finds the control room and finds the self destruct button. Scrappy and Kirby escape the spaceship with only seconds to spare.')
 if time > 60 and time < 80; 
-    q69 = input('you are left in a dark forest alone with your thoguths. Do you walk further in the forest or turn back?')
-    if q69.lower() = 'walk further'
+    q69 = input('you are left in a dark forest alone with your thoguths. Do you walk further in the forest or turn back?(walk/turn)')
+    if q69.lower().startswith('w'):
         time -=30
         print('Scrappy finds a women tending to her garden in the woods. She gestures you over and gives you apples since she can tell that he is tired. She has a cabin nearby and gives you a phone to call for help to leave the forest')
-    elif q69.lower() = 'turn back':
+    else:
         time -=40
         print('you manage to get out of the forest and find the police')
 if time > 80;
