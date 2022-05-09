@@ -132,7 +132,7 @@ if time > 20 and time < 60:
 if time > 60 and time < 80:
     q69 = input('you are left in a dark forest alone with your thoguths. Do you walk further in the forest or turn back?(walk/turn)')
     if q69.lower().startswith('w'):
-        time -=30
+        time -=35
         print('Scrappy finds a women tending to her garden in the woods. She gestures you over and gives you apples since she can tell that he is tired. She has a cabin nearby and gives you a phone to call for help to leave the forest')
     else:
         time -=40
