@@ -28,7 +28,7 @@ if q1.lower() == "left":
         q12 = ("You see an alligator swimming directly at you. Do you fight or keep swimminng:(fight/swim)")
             if q12.lower() == 'fight':
                 time -= 25
-                print('You manage to fend off the alligator, but not without taking some damage."
+                print('You manage to fend off the alligator, but not without taking some damage.')
                 Break
             elif q12.lower() == 'swim':
                 print('You try to swim faster but the alligator is too fast for you in the water. he takes a big bite out of your leg before you reach the other side.')
