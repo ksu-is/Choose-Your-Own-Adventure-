@@ -129,7 +129,7 @@ if time > 20 and time < 60:
     else:
         time -=30
         print ('Kirby takes Scrappy on his star straight to the spaceship to potentially destroy it. Kirby fights off as many aliens as possible but is overwhelmed. Kirby throws a sword towards Scrappy and he catches it. Scrappy enters a room to find the greatest swordsman know as Meta Knight. They fight for awhile and Scrappy best Meta Knight. Scrappy soon finds the control room and finds the self destruct button. Scrappy and Kirby escape the spaceship with only seconds to spare.')
-if time > 60 and time < 80; 
+if time > 60 and time < 80:
     q69 = input('you are left in a dark forest alone with your thoguths. Do you walk further in the forest or turn back?(walk/turn)')
     if q69.lower().startswith('w'):
         time -=30
@@ -137,13 +137,13 @@ if time > 60 and time < 80;
     else:
         time -=40
         print('you manage to get out of the forest and find the police')
-if time > 80;
+if time > 80:
     q81 = input('As you are running through the forest you trip over the portal gun and it fires a portal which you fall into. you sudenly find yourself in the marvels new your city. Do you walk towards avengers tower or the sanctum sanctorum?(Avengers Tower/Sanctum Sanctorum)')          
     if q81.lower().startswith('Ave'):         
         q82 = input('You find Captain America and Iron Man onlooking a giant army of symbiotes about to attack the city. Who dod you talk to?(iron/captain)')
         if q82.lower.startswith('ir'):
             q83 = input('Iron Man offers to give you one of his suits to help fight the symbiotes. which one do you choose?(7/15/39)')
-            if q83 == '7'
+            if q83 == '7':
                 time-=40
                 print('Ahh a classic! good choice. Scrappy and Iron Man fight off the symbiotes threatning the city. Iron Man uses technology inspired by the space stone to send scrappy back to his world.')
             elif q83 == '15':
